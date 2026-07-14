@@ -7,8 +7,31 @@ body {
 header {
   padding: 5px;
   background-color: #72715a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header > h1 {
   text-align: center;
 }
+
+button {
+  width: clamp(10%, 200px, 30%);
+  padding: 5px 10px 5px 10px;
+  background-color: rgba(177, 93, 71);
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  width: clamp(50vw, 650px, 95vw);
+
+  padding: 0 10px 5px 10px;
+}
+
