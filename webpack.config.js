@@ -16,6 +16,7 @@ export default {
       directory: path.join(import.meta.dirname, 'src'),
       watch: true,
     },
+    open: true,
   },
   plugins: [
     new HtmlWebpackPlugin({
